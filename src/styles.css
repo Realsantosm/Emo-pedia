@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+body {
+  text-align: center;
+  background-color: #f55;
+}
+
+* {
+  margin: 0;
+}
+
+.heading {
+  color: #ffffff;
+  margin: 0 auto;
+  font-weight: 500;
+  text-align: center;
+  background-color: #f55;
+  padding: 1rem 1rem 2.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 5px 10px 8px red;
+  border-bottom-left-radius: 1rem;
+}
+
+.heading p {
+  font-size: 16px;
+  text-align: start;
+  font-weight: bold;
+  color: yellow;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0.7rem;
+}
+.animals-heading {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.input {
+  padding: 1rem 1rem;
+  width: 20%;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 2rem;
+  outline: none;
+  box-shadow: 10px 10px 20px red, -10px -10px 20px yellow;
+}
+
+.input:focus {
+  border-radius: 74px;
+  background: linear-gradient(145deg, yellow, yellow);
+  box-shadow: 16px 16px 31px green, -16px -16px 31px red;
+}
+.meaning {
+  margin-bottom: 1rem;
+}
+
+.emojis {
+  font-size: 2rem;
+  margin: 1.3rem;
+  cursor: pointer;
+  line-height: 8.3rem;
+  padding: 1rem 1rem;
+  border-radius: 100px;
+  background: yellow;
+  box-shadow: 10px 10px 20px red, -10px -10px 20px red;
+}
+
+.emojis:hover {
+  border-radius: 74px;
+  background: linear-gradient(145deg, orange, orange);
+  box-shadow: 16px 16px 31px red, -16px -16px 31px yellow;
+}
+.emojis:active {
+  border-radius: 74px;
+  background: linear-gradient(145deg, #b44bdb, #d659ff);
+  box-shadow: 16px 16px 31px red, -16px -16px 31px #d458ff;
+}
+
+footer {
+  margin-top: 7rem;
+  background-color: #f55;
+  padding: 2rem 0rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2rem;
+  box-shadow: 0px 10px 5px rgb(175, 173, 173), 0px -10px 5px red;
+  color: #ffffff;
+}
+
+footer p {
+  color: yellow;
+  font-size: 1rem;
+  margin: 0;
+}
